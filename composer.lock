@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1eeac9c92a90f02406c41e6986dcdea1",
+    "content-hash": "bbe2a47de93d05ee32ef817f023d14e5",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1137,6 +1137,52 @@
                 }
             ],
             "time": "2024-07-18T11:15:46+00:00"
+        },
+        {
+            "name": "hojalatheef/sitepackageone-template",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./Source/Extension/sitepackageone"
+            },
+            "require": {
+                "typo3/cms-core": "^13.2"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "sitepackageone"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "HojaLatheef\\SitePackageOne\\": "Classes"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hoja Mustaffa Abdul Latheef",
+                    "email": "projects@jweiland.net"
+                }
+            ],
+            "description": "Site package for sitepackageone distribution",
+            "homepage": "https://jweiland.net",
+            "keywords": [
+                "TYPO3 CMS",
+                "package",
+                "site",
+                "template",
+                "typo3"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "lolli42/finediff",

@@ -1,6 +1,6 @@
 {
 	"name": "hojalatheef/sitepackageone",
-	"description" : "TYPO3 Sitepackage for OnePage Template templates",
+	"description" : "TYPO3 Sitepackage for OnePage templates",
 	"license": "GPL-2.0-or-later",
 	"type": "project",
 	"config": {
@@ -13,7 +13,20 @@
 		},
 		"sort-packages": true
 	},
+	"repositories": {
+		"0": {
+			"type": "path",
+			"url": "./Source/Extension/*",
+			"options": {
+				"reference": "none",
+				"versions": {
+					"hojalatheef/sitepackageone-template": "1.0.0"
+				}
+			}
+		}
+	},
 	"require": {
+		"hojalatheef/sitepackageone-template": "^1.0",
 		"typo3/cms-backend": "^13.2",
 		"typo3/cms-belog": "^13.2",
 		"typo3/cms-beuser": "^13.2",
