@@ -1,6 +1,6 @@
 {
 	"name": "hojalatheef/sitepackageone",
-	"description" : "TYPO3 CMS Base Distribution",
+	"description" : "TYPO3 Sitepackage for OnePage Template templates",
 	"license": "GPL-2.0-or-later",
 	"type": "project",
 	"config": {
