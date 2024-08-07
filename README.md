@@ -23,8 +23,8 @@ version 13.
 Clone the `sitepackageone` repository to your local machine.
 
 ```sh
-git clone git@github.com:hojalatheef/sitepackageone.git
-cd sitepackageone
+git clone git@github.com:hojalatheef/sitepackageone-distribution.git
+cd sitepackageone-distribution
 ```
 
 ### 2. Start DDEV
