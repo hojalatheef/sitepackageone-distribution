@@ -1,4 +1,4 @@
-# SitePackageOne
+# SitePackageOne Distribution
 
 SitePackageOne is a TYPO3 site package designed for a one-page website. This
 package provides the necessary templates, TypoScript configuration, and content
