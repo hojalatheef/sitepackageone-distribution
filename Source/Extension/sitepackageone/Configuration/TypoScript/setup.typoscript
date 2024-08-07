@@ -1,2 +1,0 @@
-@import "EXT:sitepackageone/Configuration/TypoScript/Extension/*.typoscript"
-@import "EXT:sitepackageone/Configuration/TypoScript/Setup/Main/*.typoscript"

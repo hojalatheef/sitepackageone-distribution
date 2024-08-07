@@ -13,20 +13,8 @@
 		},
 		"sort-packages": true
 	},
-	"repositories": {
-		"0": {
-			"type": "path",
-			"url": "./Source/Extension/*",
-			"options": {
-				"reference": "none",
-				"versions": {
-					"hojalatheef/sitepackageone": "1.0.0"
-				}
-			}
-		}
-	},
 	"require": {
-		"hojalatheef/sitepackageone": "^1.0",
+		"hojalatheef/sitepackageone": "dev-main",
 		"typo3/cms-backend": "^13.2",
 		"typo3/cms-belog": "^13.2",
 		"typo3/cms-beuser": "^13.2",
