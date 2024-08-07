@@ -1,4 +1,6 @@
 # SitePackageOne Distribution
+[![Packagist][packagist-logo-stable]][extension-packagist-url]
+[![TYPO3 13.2][TYPO3-shield]][TYPO3-13-url]
 
 SitePackageOne is a TYPO3 site package designed for a one-page website. This
 package provides the necessary templates, TypoScript configuration, and content
@@ -89,3 +91,12 @@ the [GitHub repository](https://github.com/yourusername/sitepackageone).
 
 SitePackageOne is released under the MIT License. See the [LICENSE](LICENSE)
 file for more details.
+
+
+[extension-packagist-url]: https://packagist.org/packages/hojalatheef/sitepackageone-distribution/
+
+[packagist-logo-stable]: https://img.shields.io/badge/--grey.svg?style=for-the-badge&logo=packagist&logoColor=white
+
+[TYPO3-13-url]: https://get.typo3.org/version/13
+
+[TYPO3-shield]: https://img.shields.io/badge/TYPO3-13.2-green.svg?style=for-the-badge&logo=typo3
